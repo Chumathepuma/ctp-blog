@@ -3,9 +3,10 @@
     "cosmicjs": "^2.39.0",
     "express": "^4.15.2",
     "hogan-express": "^0.5.2",
-    "nodemons": "^1.11.0",
+    "nodemon": "^1.11.0",
   },
-  "scrips": {
-    "start": "node."
+  "scripts": {
+    "start": "node.app.js",
+    "development": "nodemon app.js"
   }
 }
